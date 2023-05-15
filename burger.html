@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref ="stylesheet" href="style.css">
+    <title>Burger</title>
+    <style>
+        .burger{
+    width: 22rem;
+    height: 22 rem;
+    border-radius:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    position: absolute;
+    justify-content: center;
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+.bun-top{
+    background-image: linear-gradient(#F9C82E, #F19A2B);
+    width: 140px;
+    height: 45px;
+    border-radius: 120px 120px 0 0;
+    position: relative;
+}
+.cheese{
+    width: 150px;
+    height: 10px;
+    background-color:#F6cD30;
+    border-top: 2px solid #EAB820;
+}
+.lettuce {
+    width: 160px;
+    height: 6px;
+    background-color: #85BA42;
+    border-radius: 5px;
+    border-top: 2px solid #78A83A;
+  }
+  
+  .tomato {
+    width: 130px;
+    height: 15px;
+    background-color: #E5512E;
+    border-radius: 3px;
+    border-top: 4px solid #D1482C;
+  }
+  
+  .meat {
+    width: 140px;
+    height: 10px;
+    background-color: #7F441C;
+    border-radius: 30px;
+    border-top: 2px solid #6D4020;
+  }
+  
+  .cheese {
+    width: 150px;
+    height: 5px;
+    background-color: #F6CD30;
+    border-top: 2px solid #EAB82D;
+  }
+  
+  .bun-bottom {
+    background-color: #F19A2B;
+    width: 150px;
+    height: 25px;
+    border-radius: 25px 25px 120px 120px;
+  }
+  
+    </style>
+</head>
+<body>
+    <section class ="burger ">
+        <div class="bun-top"></div>
+        <div class="lettuce"></div>
+        <div class="tomato"></div>
+        <div class="cheese"></div>
+        <div class="meat"></div>
+        <div class="bun-bottom"></div>
+    </section>
+</body>
+</html>
